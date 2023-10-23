@@ -1,0 +1,19 @@
+ALGORITHM voyelle
+VAR
+    str:STRING
+    nbb,nbc,nbv:INTEGER:=0
+    i:INTEGER
+BEGIN
+   write("write a sentence")
+   read(str)
+   WHILE (str(1)<>".") DO
+    nbc=nbc+1
+    IF (str(1)=("a","e","i","o","y","u")) THEN
+
+      nbv=nbv+1
+      IF (str(1)=" ") THEN
+        nbb=nbb+1
+      END_IF 
+    END_IF
+   END_WHILE
+END
