@@ -1,0 +1,26 @@
+ALGORITHM isPalindrome
+VAR
+
+    word:STRING
+    start:INTEGER:=0
+    end:INTEGER:=word.length-1
+BEGIN
+    WHILE (start<end) DO
+       IF (word(start)!=word(end)) THEN
+        read(non palindrome)
+
+    
+       ELSE
+        read(palindrome)
+       start=start+1
+       end= end-1 
+       END_IF
+    END_WHILE
+
+END 
+
+
+
+    
+   
+   

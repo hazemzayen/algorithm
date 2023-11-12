@@ -1,0 +1,24 @@
+FUNCTION ispalindrome(word:STRING,start:INTEGER,end:INTEGER) : BOOLEAN
+VAR
+    
+    
+BEGIN
+    start=0
+    end=word.length-1
+    r
+    IF (word(start)!=word(end)) THEN
+        RETURN nonpalindrome
+
+        
+    ELSE
+        RETURN palindrome
+
+
+    start=start+1;
+    end =end-1;  
+    END_IF
+
+
+    
+    
+END
